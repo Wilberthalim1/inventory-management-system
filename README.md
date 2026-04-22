@@ -1,7 +1,7 @@
 # 📦 Inventory Management System
 
-![CI Status](https://github.com/username/inventory-management-system/actions/workflows/ci.yml/badge.svg)
-![Coverage](https://codecov.io/gh/username/inventory-management-system/branch/main/graph/badge.svg)
+![CI Status](https://github.com/Wilberthalim1/inventory-management-system/actions/workflows/ci.yml/badge.svg)
+![Coverage](https://codecov.io/gh/Wilberthalim1/inventory-management-system/branch/main/graph/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -11,13 +11,14 @@ Sistem manajemen inventori berbasis REST API yang dibangun dengan Python dan Fla
 
 ## ✨ Fitur Utama
 
-| Fitur | Deskripsi |
-|-------|-----------|
-| **Manajemen Produk** | Tambah, edit, cari produk dengan validasi SKU unik dan harga |
-| **Transaksi Stok** | Catat barang masuk (stock in) dan keluar (stock out) dengan riwayat lengkap |
-| **Alert & Laporan** | Notifikasi stok rendah otomatis dan laporan ringkasan nilai inventori |
+| Fitur                | Deskripsi                                                                   |
+| -------------------- | --------------------------------------------------------------------------- |
+| **Manajemen Produk** | Tambah, edit, cari produk dengan validasi SKU unik dan harga                |
+| **Transaksi Stok**   | Catat barang masuk (stock in) dan keluar (stock out) dengan riwayat lengkap |
+| **Alert & Laporan**  | Notifikasi stok rendah otomatis dan laporan ringkasan nilai inventori       |
 
 ### Aturan Bisnis
+
 - SKU produk bersifat **unik** dan otomatis diubah ke huruf kapital
 - Stock out **diblokir** jika stok tidak mencukupi
 - Alert stok rendah dipicu ketika `stock ≤ min_stock`
@@ -133,13 +134,13 @@ src/database.py      64      6    91%
 TOTAL               281     11    96%
 ```
 
-| Kategori | Jumlah | Hasil |
-|----------|--------|-------|
-| Unit Test (model) | 28 test | ✅ passed |
-| Unit Test (service) | 18 test | ✅ passed |
-| Integration Test | 20 test | ✅ passed |
-| **Total** | **66 test** | **✅ 66 passed** |
-| **Coverage** | | **96%** |
+| Kategori            | Jumlah      | Hasil            |
+| ------------------- | ----------- | ---------------- |
+| Unit Test (model)   | 28 test     | ✅ passed        |
+| Unit Test (service) | 18 test     | ✅ passed        |
+| Integration Test    | 20 test     | ✅ passed        |
+| **Total**           | **66 test** | **✅ 66 passed** |
+| **Coverage**        |             | **96%**          |
 
 ---
 
